@@ -134,4 +134,7 @@ EM.run do
 
   puts "Slanger API server listening on port #{Slanger::Config.api_port}"
   puts "Slanger WebSocket server listening on port #{Slanger::Config.websocket_port}"
+  puts "Webhook URL: #{Slanger::Config.webhook_url}"
+  puts "Redis Address: #{Slanger::Config.redis_address}"
+  puts "Running in Verbose Mode: #{Slanger::Config.debug}"
 end
